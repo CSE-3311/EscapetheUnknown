@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Main/Assets/Animations/Player_movement/Else_front.anim.meta
+guid: 341750ec30bd6d2488a6ba3e1c0ad23c
+=======
 guid: 9025da1a7a492564984a07dcea2d8364
+>>>>>>> Utsav:Main/Assets/Animations/Player_movement/front.anim.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 7400000

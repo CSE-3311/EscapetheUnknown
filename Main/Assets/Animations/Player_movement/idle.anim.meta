@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Main/Assets/Animations/Player_movement/Else_idle.anim.meta
+guid: a52462c0219b4b846812fddc3deb982a
+=======
 guid: 07605afb0323dfc4e9be1873369d3430
+>>>>>>> Utsav:Main/Assets/Animations/Player_movement/idle.anim.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 7400000
