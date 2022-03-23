@@ -1,0 +1,714 @@
+Unity Editor version:    2020.3.27f1 (e759542391ea)
+Branch:                  2020.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.2.1 (Build 21D62)
+Darwin version:          21.3.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/mohammadabdellatif/Documents/EscapetheUnknown/Main
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49189
+Successfully changed project path to: /Users/mohammadabdellatif/Documents/EscapetheUnknown/Main
+/Users/mohammadabdellatif/Documents/EscapetheUnknown/Main
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 67.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.27f1 (e759542391ea)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mohammadabdellatif/Documents/EscapetheUnknown/Main/Assets
+GfxDevice: creating device client; threaded=0
+2022-03-22 18:11:09.861 Unity[845:7878] (null) preferred device: Apple M1 (high power)
+2022-03-22 18:11:09.861 Unity[845:7878] Metal devices available: 1
+2022-03-22 18:11:09.861 Unity[845:7878] 0: Apple M1 (high power)
+2022-03-22 18:11:09.861 Unity[845:7878] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56845
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000952 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 66.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.197 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1197ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (967ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (486ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (22ms)
+				ProcessInitializeOnLoadAttributes (285ms)
+				ProcessInitializeOnLoadMethodAttributes (102ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004973 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 66.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.225 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2227ms)
+		BeginReloadAssembly (232ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1911ms)
+			LoadAssemblies (180ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (394ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (971ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (722ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.012791 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.021822 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Initializing Unity extensions:
+2022-03-22 18:11:15.009 Unity[845:7878] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001b6cd20 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-03-22 18:11:15.013 Unity[845:7878] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001b796c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 275.9 MB.
+System memory in use after: 275.7 MB.
+
+Unloading 146 unused Assets to reduce memory usage. Loaded Objects now: 3840.
+Total: 2.598708 ms (FindLiveObjects: 0.146625 ms CreateObjectMapping: 0.076709 ms MarkObjects: 2.183958 ms  DeleteObjects: 0.190708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/charactermove.unity
+  artifactKey: Guid(f774d5a673ff1f24d9c1ffe0c930e558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/charactermove.unity using Guid(f774d5a673ff1f24d9c1ffe0c930e558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faafeaafa84674b5652e4626aad620a6') in 0.022463 seconds 
+  Import took 0.026158 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006158 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-03-22 18:12:25.008 Unity[845:7878] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001b04930 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.306 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2306ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (2006ms)
+			LoadAssemblies (214ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (375ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (971ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (751ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (49ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 266.5 MB.
+System memory in use after: 266.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3843.
+Total: 2.532666 ms (FindLiveObjects: 0.193833 ms CreateObjectMapping: 0.072459 ms MarkObjects: 2.247750 ms  DeleteObjects: 0.017875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005020 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-03-22 20:09:21.869 Unity[845:7878] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001b0aae0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.400 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2401ms)
+		BeginReloadAssembly (250ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (61ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (2064ms)
+			LoadAssemblies (211ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (375ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1011ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (172ms)
+				ProcessInitializeOnLoadAttributes (782ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (56ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 267.1 MB.
+System memory in use after: 267.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3845.
+Total: 2.456208 ms (FindLiveObjects: 0.133917 ms CreateObjectMapping: 0.069583 ms MarkObjects: 2.234000 ms  DeleteObjects: 0.017834 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1493.217259 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice.png
+  artifactKey: Guid(f8deccc8c719c4082bca5f00f01d91eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice.png using Guid(f8deccc8c719c4082bca5f00f01d91eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe01183a524940014362b5fa21cabe9') in 0.511089 seconds 
+  Import took 0.517250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.117470 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice.png
+  artifactKey: Guid(f8deccc8c719c4082bca5f00f01d91eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice.png using Guid(f8deccc8c719c4082bca5f00f01d91eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec5b36b34f74c62fd97036cf9ff042d') in 2.610111 seconds 
+  Import took 2.620205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.624279 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_0.asset
+  artifactKey: Guid(c74acc0b9a9a240828c007f1c5e5f9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_0.asset using Guid(c74acc0b9a9a240828c007f1c5e5f9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4f5906d19833edffa10139652328cb') in 0.438664 seconds 
+  Import took 0.443944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_25.asset
+  artifactKey: Guid(c276016f7f63e4e22b867a785a4a2574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_25.asset using Guid(c276016f7f63e4e22b867a785a4a2574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7912f0b3f241350736b8a9652ffc6458') in 0.006333 seconds 
+  Import took 0.009678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_23.asset
+  artifactKey: Guid(3bbf5be3ccfa74cfeb35226d650e38a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_23.asset using Guid(3bbf5be3ccfa74cfeb35226d650e38a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b5e745e7ebc0874443925dc3eef88b') in 0.005082 seconds 
+  Import took 0.008452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_28.asset
+  artifactKey: Guid(def785670a28e47159b6644c1c2a9f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_28.asset using Guid(def785670a28e47159b6644c1c2a9f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bf570f1bea5f2a80537a9aa8f5d869') in 0.005150 seconds 
+  Import took 0.008483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_6.asset
+  artifactKey: Guid(9c7b6ea0f645e455883e115a30d786af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_6.asset using Guid(9c7b6ea0f645e455883e115a30d786af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18892140fd5e4fd0fba68e4bd96f488') in 0.005133 seconds 
+  Import took 0.008486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_16.asset
+  artifactKey: Guid(bc50cce9ce33042388e768d6030dfdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_16.asset using Guid(bc50cce9ce33042388e768d6030dfdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a45fa9d53870e717ac90ad0b6cf548') in 0.004705 seconds 
+  Import took 0.008010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_27.asset
+  artifactKey: Guid(24a5b5de34ccd4287b930a04e7d9e986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_27.asset using Guid(24a5b5de34ccd4287b930a04e7d9e986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115b6bc981e8ea8328f44eb26c2c98b9') in 0.004985 seconds 
+  Import took 0.008285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_31.asset
+  artifactKey: Guid(76b305b463af845e1b0f5bbc2e6a2fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_31.asset using Guid(76b305b463af845e1b0f5bbc2e6a2fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65333965896a0ee7d350e2722801dbd0') in 0.004857 seconds 
+  Import took 0.008141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_15.asset
+  artifactKey: Guid(91b4d33d511054e00b313c77f9cfa63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_15.asset using Guid(91b4d33d511054e00b313c77f9cfa63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046384376beeb399ad1764c8145b6caa') in 0.004925 seconds 
+  Import took 0.008236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_9.asset
+  artifactKey: Guid(a0fd3db55ad424680a73693c1ff5d2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_9.asset using Guid(a0fd3db55ad424680a73693c1ff5d2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f331e5965a4ea509552c295c31a512') in 0.004986 seconds 
+  Import took 0.008285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_11.asset
+  artifactKey: Guid(441eadc860a0c49549301e9fa766142a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_11.asset using Guid(441eadc860a0c49549301e9fa766142a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1447f340613805dc3d1a145a2badcf') in 0.004947 seconds 
+  Import took 0.008215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_22.asset
+  artifactKey: Guid(66464b26ede1047d181c406340ec1692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_22.asset using Guid(66464b26ede1047d181c406340ec1692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e52024d38c2fa7f51568fe3913f685a') in 0.004969 seconds 
+  Import took 0.008258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_20.asset
+  artifactKey: Guid(853b52d40ac2b4bf8acec60df6a9ee56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_20.asset using Guid(853b52d40ac2b4bf8acec60df6a9ee56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59445379844feb6eec120f09fa857c79') in 0.005116 seconds 
+  Import took 0.008479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_32.asset
+  artifactKey: Guid(8adc22a3faa224aa486cfeac0a94f408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_32.asset using Guid(8adc22a3faa224aa486cfeac0a94f408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067873116c014cb95d92c67bbd2a95ce') in 0.004891 seconds 
+  Import took 0.008185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_10.asset
+  artifactKey: Guid(697b007c08132463aae9b22da2808460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_10.asset using Guid(697b007c08132463aae9b22da2808460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c86a43e32fda0367e403c6301468be2') in 0.004815 seconds 
+  Import took 0.008155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_34.asset
+  artifactKey: Guid(ec4c005f7075c4111902c5cda24be918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_34.asset using Guid(ec4c005f7075c4111902c5cda24be918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3634149ff986fd738a59e3640276283c') in 0.005035 seconds 
+  Import took 0.008326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_18.asset
+  artifactKey: Guid(214264e522c2043fc950b2c91bd37cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_18.asset using Guid(214264e522c2043fc950b2c91bd37cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4b4e06ca06c3ac86ef66739c0f45df') in 0.004387 seconds 
+  Import took 0.007720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_19.asset
+  artifactKey: Guid(bbe012d2163154d9c8e340ec77f12804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_19.asset using Guid(bbe012d2163154d9c8e340ec77f12804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0d3728a60d13e6102183f38a92569a') in 0.004723 seconds 
+  Import took 0.008028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_21.asset
+  artifactKey: Guid(3968444d186c440c89f8564767ab9f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_21.asset using Guid(3968444d186c440c89f8564767ab9f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6afa728186e1fac117943d9ceae26ab0') in 0.004855 seconds 
+  Import took 0.008407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_7.asset
+  artifactKey: Guid(89fc8a7eeb6ca441c81392cad1a55969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_7.asset using Guid(89fc8a7eeb6ca441c81392cad1a55969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f228ff3d627aa65538a4c5abacc90609') in 0.005750 seconds 
+  Import took 0.009683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_26.asset
+  artifactKey: Guid(6353dd3c79cd8414b96555d319aee929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_26.asset using Guid(6353dd3c79cd8414b96555d319aee929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7984a13f36d32a76f5308a5cf9805adb') in 0.005669 seconds 
+  Import took 0.010015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_1.asset
+  artifactKey: Guid(82ee1cf272726404abedcb25854ed50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_1.asset using Guid(82ee1cf272726404abedcb25854ed50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f68dd1f0462d73d8ad85b39c14a2163') in 0.006042 seconds 
+  Import took 0.010466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_12.asset
+  artifactKey: Guid(6662cbdff472f4c09a027913b6701bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_12.asset using Guid(6662cbdff472f4c09a027913b6701bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c0fca53ed95122b51487e683b87753') in 0.005187 seconds 
+  Import took 0.009151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_4.asset
+  artifactKey: Guid(092ba86a69a624b34aa5948addb40d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_4.asset using Guid(092ba86a69a624b34aa5948addb40d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67fee7e86aa6aeee46c88b24a4e016d') in 0.004984 seconds 
+  Import took 0.008661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_24.asset
+  artifactKey: Guid(d25c0428fc1684f69902ce27cd8c7073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_24.asset using Guid(d25c0428fc1684f69902ce27cd8c7073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54e53b7924fa84d9471b9a5a8a4d38c') in 0.005175 seconds 
+  Import took 0.009052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_35.asset
+  artifactKey: Guid(55d83d4db44894bf7a97e3ce3d5f8d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_35.asset using Guid(55d83d4db44894bf7a97e3ce3d5f8d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b59ae159a044771f67f12c4755ed1f') in 0.005000 seconds 
+  Import took 0.008359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_36.asset
+  artifactKey: Guid(0553dae2065c246bcaab18a754f2c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_36.asset using Guid(0553dae2065c246bcaab18a754f2c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe61f40dd4f3a3172adbe91f74fa5304') in 0.005007 seconds 
+  Import took 0.008354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_5.asset
+  artifactKey: Guid(0f887dde5b1774ebfba9db6217e97dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_5.asset using Guid(0f887dde5b1774ebfba9db6217e97dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6911b9aa1a744aad89084df3b514ed') in 0.004934 seconds 
+  Import took 0.008323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_2.asset
+  artifactKey: Guid(1daa682097e21427fb519d350caf5198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_2.asset using Guid(1daa682097e21427fb519d350caf5198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b6139b4c9b8f6062b63b4693c38127') in 0.004724 seconds 
+  Import took 0.008020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_14.asset
+  artifactKey: Guid(2ab581b721d7a49b7b8610cf6f0798e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_14.asset using Guid(2ab581b721d7a49b7b8610cf6f0798e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699788f5dd75782d27c2b21d67e0412c') in 0.007943 seconds 
+  Import took 0.011468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_17.asset
+  artifactKey: Guid(c7cb0eb3e567e46c39c1725f2cc5fca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_17.asset using Guid(c7cb0eb3e567e46c39c1725f2cc5fca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ae285a1c3e9a15a6888b48359ac353') in 0.004648 seconds 
+  Import took 0.008138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_30.asset
+  artifactKey: Guid(af62bf8da411646a3b6447391a20cf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_30.asset using Guid(af62bf8da411646a3b6447391a20cf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cda578e391f7c299c97985c832386f9') in 0.004861 seconds 
+  Import took 0.008252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_29.asset
+  artifactKey: Guid(936d9c252c90a4f05a6e996c660ee829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_29.asset using Guid(936d9c252c90a4f05a6e996c660ee829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea5369abcd6f9fad8b2c2f58d345146') in 0.004706 seconds 
+  Import took 0.008199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_8.asset
+  artifactKey: Guid(301017f7d6a184074b7b5ef5718038c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_8.asset using Guid(301017f7d6a184074b7b5ef5718038c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8cd2d521659fed7e8640c59373bbc6') in 0.004576 seconds 
+  Import took 0.007941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_33.asset
+  artifactKey: Guid(e8e3c4a0dea374105881423f4c025784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_33.asset using Guid(e8e3c4a0dea374105881423f4c025784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c57c5183c7099868752b532bf1eef4d') in 0.004841 seconds 
+  Import took 0.008307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_13.asset
+  artifactKey: Guid(af6ca942790b44284a212daa1b68320f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_13.asset using Guid(af6ca942790b44284a212daa1b68320f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2777840b9d22082d4346949afd9c92e') in 0.005378 seconds 
+  Import took 0.009206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_3.asset
+  artifactKey: Guid(5febe3fb3d91840a6ad9b682d2e488d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice_3.asset using Guid(5febe3fb3d91840a6ad9b682d2e488d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82ff16e80b91a5230f7d8df2243c449') in 0.004850 seconds 
+  Import took 0.008248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 170.327931 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice.png
+  artifactKey: Guid(f8deccc8c719c4082bca5f00f01d91eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice.png using Guid(f8deccc8c719c4082bca5f00f01d91eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d5351c3796a859b38de9bdf41d658a') in 2.690169 seconds 
+  Import took 2.699221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 251.819014 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice.png
+  artifactKey: Guid(f8deccc8c719c4082bca5f00f01d91eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice.png using Guid(f8deccc8c719c4082bca5f00f01d91eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124bf5f708ae9d888b2efefca471d830') in 0.056340 seconds 
+  Import took 0.060618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.330435 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice.png
+  artifactKey: Guid(f8deccc8c719c4082bca5f00f01d91eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice.png using Guid(f8deccc8c719c4082bca5f00f01d91eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642683d9f4a36dce9822eae48ff6f2d7') in 2.913137 seconds 
+  Import took 2.922469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.524328 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice.png
+  artifactKey: Guid(f8deccc8c719c4082bca5f00f01d91eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice.png using Guid(f8deccc8c719c4082bca5f00f01d91eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699d91df6f450084e072eebfd0a483cf') in 1.866513 seconds 
+  Import took 1.874703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.236022 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice.png
+  artifactKey: Guid(f8deccc8c719c4082bca5f00f01d91eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice.png using Guid(f8deccc8c719c4082bca5f00f01d91eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f0847621cea542287f38dc19ecf9bb') in 2.743667 seconds 
+  Import took 2.752723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.819194 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice.png
+  artifactKey: Guid(f8deccc8c719c4082bca5f00f01d91eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice.png using Guid(f8deccc8c719c4082bca5f00f01d91eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bd3e0145e644e84f1e26481232c471') in 2.780336 seconds 
+  Import took 2.789759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.518553 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice.png
+  artifactKey: Guid(f8deccc8c719c4082bca5f00f01d91eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice.png using Guid(f8deccc8c719c4082bca5f00f01d91eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3927a71189cf2fb1e22e2cc90c360c89') in 0.636769 seconds 
+  Import took 0.642465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.403789 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice.png
+  artifactKey: Guid(f8deccc8c719c4082bca5f00f01d91eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice.png using Guid(f8deccc8c719c4082bca5f00f01d91eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35102ef3371ea8d09dc562e8374fa601') in 0.646656 seconds 
+  Import took 0.652271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.462386 seconds.
+  path: Assets/Scenes/PixelArt/TileSheet-ConsultationOffice.png
+  artifactKey: Guid(f8deccc8c719c4082bca5f00f01d91eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PixelArt/TileSheet-ConsultationOffice.png using Guid(f8deccc8c719c4082bca5f00f01d91eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b5df2e7b20425d5bb670de8c28e97a') in 0.619719 seconds 
+  Import took 0.625197 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005251 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-03-22 20:49:03.227 Unity[845:7878] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001b6f640 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.345 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2345ms)
+		BeginReloadAssembly (233ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (2024ms)
+			LoadAssemblies (213ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (377ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (990ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (170ms)
+				ProcessInitializeOnLoadAttributes (768ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (51ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 277.9 MB.
+System memory in use after: 278.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3861.
+Total: 2.445542 ms (FindLiveObjects: 0.142500 ms CreateObjectMapping: 0.071125 ms MarkObjects: 2.203375 ms  DeleteObjects: 0.027917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
