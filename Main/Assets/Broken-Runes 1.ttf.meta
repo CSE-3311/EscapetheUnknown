@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: c250aeaeefa43214f815bf81503c1f08
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Broken Runes
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: dd70377a54953df4da7201ecf2cd8a3e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
