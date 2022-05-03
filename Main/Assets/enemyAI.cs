@@ -32,7 +32,9 @@ public class enemyAI : MonoBehaviour
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
 
-        //generate the path
+	seeker.StartPath(rb.position, target.position, OnPathComplete);
+
+	//generate the path
         //pass our start point, end path, function for path calculation
         InvokeRepeating("UpdatePath", 0f, 0.5f);
         
@@ -43,18 +45,18 @@ public class enemyAI : MonoBehaviour
     {
         //makes sure path is not updating while updating
         if(seeker.IsDone())
-            seeker.StartPath(rb.position, target.position, OnPathComplete); 
+             
     }
 
     //takes in a path
     void OnPathComplete(Path p)
     {
-        //check for errors
+        //if we didnt get errors
         if(!p.error)
         {
             //current path is new path
             path = p;
-            //reset our path
+            //reset our progress along path
             currentWaypoint = 0;
         }
     }

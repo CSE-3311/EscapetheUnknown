@@ -25,4 +25,14 @@ public class characterMove : MonoBehaviour
     {
          rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
      }
+
+	void OnCollisionEnter(Collision col)
+	{
+		if(col.gameObject.name == "enemy")
+		{
+			Debug.Log("Collision detected");
+		}
+
+	}
+
 }
