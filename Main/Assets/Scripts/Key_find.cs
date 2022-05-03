@@ -8,7 +8,7 @@ public class Key_find : MonoBehaviour
    private bool pickUp;
    private void Update()
     {
-        if(pickUp && Input.GetKeyDown(KeyCode.P))
+        if(pickUp && Input.GetKeyDown(KeyCode.Space))
         {
             Destroy(gameObject);
         }
