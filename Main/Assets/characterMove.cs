@@ -9,6 +9,7 @@ public class characterMove : MonoBehaviour
      public Rigidbody2D rb;
      Vector2 movement;
      public Animator animator;
+     public int counterkey = 0;
     // Start is called before the first frame update
 
     void Update()
@@ -39,9 +40,16 @@ public class characterMove : MonoBehaviour
 			Debug.Log("Collision detected");
 			SceneManager.LoadScene("GameOver");
 		}
+          
 		if(collider.transform.tag == "key")
 		{
 			Debug.Log("key collected");
+               counterkey+=1;
+
+               if(counterkey == 3)
+               {
+                    SceneManager.LoadScene("Game");
+               }
 			//add key count to the debug log
 			//add win scene
 			//SceneManager.LoadScene("Win");
