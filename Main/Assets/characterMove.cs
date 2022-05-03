@@ -1,6 +1,7 @@
  using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class characterMove : MonoBehaviour
 {
@@ -28,11 +29,16 @@ public class characterMove : MonoBehaviour
 
 	void OnCollisionEnter(Collision col)
 	{
-		if(col.gameObject.name == "enemy")
+		if(col.transform.tag == "enemy")
 		{
 			Debug.Log("Collision detected");
 		}
 
+	}
+	private void OnTriggerEnter2D(Collider2D collider)
+	{
+		Debug.Log("Collision detected");
+		SceneManager.LoadScene("GameOver");
 	}
 
 }

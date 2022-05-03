@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
+using UnityEngine.SceneManagement;
 
 //removes the need for AI Path and Destination setter components
 // add a rigid body 2d 
@@ -32,21 +33,20 @@ public class enemyAI : MonoBehaviour
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
 
-	seeker.StartPath(rb.position, target.position, OnPathComplete);
 
 	//generate the path
         //pass our start point, end path, function for path calculation
         InvokeRepeating("UpdatePath", 0f, 0.5f);
         
 
+
     }
-    //updates path
-    void UpdatePath()
-    {
-        //makes sure path is not updating while updating
-        if(seeker.IsDone())
-             
-    }
+	void UpdatePath()
+	{
+		if(seeker.IsDone())
+			seeker.StartPath(rb.position, target.position, OnPathComplete);
+	}
+ 
 
     //takes in a path
     void OnPathComplete(Path p)
@@ -73,7 +73,7 @@ public class enemyAI : MonoBehaviour
         if(currentWaypoint >= path.vectorPath.Count)
         {
             reachedEndPath = true;
-            return;
+            SceneManager.LoadScene("GameOver");
         }
         else
         {
