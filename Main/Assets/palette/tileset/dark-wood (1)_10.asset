@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: dark-wood (1)_10
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -1817128723847478871, guid: 4908a8b3d170a5c458bfd46ace603518, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6c82566343c899c478e5a40ce680931d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

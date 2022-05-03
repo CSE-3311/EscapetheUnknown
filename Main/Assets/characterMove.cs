@@ -29,16 +29,25 @@ public class characterMove : MonoBehaviour
 
 	void OnCollisionEnter(Collision col)
 	{
-		if(col.transform.tag == "enemy")
-		{
-			Debug.Log("Collision detected");
-		}
+		
 
 	}
 	private void OnTriggerEnter2D(Collider2D collider)
 	{
-		Debug.Log("Collision detected");
-		SceneManager.LoadScene("GameOver");
+		if(collider.transform.tag == "enemy")
+		{
+			Debug.Log("Collision detected");
+			SceneManager.LoadScene("GameOver");
+		}
+		if(collider.transform.tag == "key")
+		{
+			Debug.Log("key collected");
+			//add key count to the debug log
+			//add win scene
+			//SceneManager.LoadScene("Win");
+		}
+		
+		
 	}
 
 }
